@@ -1,0 +1,81 @@
+@media screen and (max-width: 1680px) {
+} /*max-width:1680px*/
+@media screen and (max-width: 1440px) {
+} /*max-width:1440px*/
+
+@media screen and (max-width: 1199px) {
+  .header-menu .menu ul > li a {
+    padding: 25px 10px;
+  }
+} /*max-width:1199px*/
+
+@media screen and (max-width: 1024px) {
+} /*max-width:1024px*/
+
+@media screen and (max-width: 1008px) {
+} /*max-width:1008px*/
+
+@media screen and (max-width: 992px) {
+  .header-menu .menu ul > li {
+    text-align: center;
+   
+  }
+  .header-menu .menu ul > li:hover {
+    text-align: center;
+    background-color: var(--bd-black);
+  }
+  .header-menu .menu ul > li a {
+    padding: 15px 10px;
+    transition: all 0.3s;
+  }
+  .header-top {
+    border-bottom: 1px solid #fff;
+  }
+
+  .footer-menu-items {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .footer-menu-items {
+    display: none;
+  }
+  .footer .wechat {
+    margin-top: 10px;
+  }
+} /*max-width:992px*/
+
+@media screen and (max-width: 991px) {
+} /*max-width:991px*/
+
+@media screen and (max-width: 768px) {
+} /*max-width:768px*/
+
+@media screen and (max-width: 767px) {
+} /*max-width:767px*/
+
+@media screen and (max-width: 660px) {
+} /*max-width:660px*/
+
+@media screen and (max-width: 640px) {
+} /*max-width:640px*/
+
+@media screen and (max-width: 580px) {
+} /*max-width:580px*/
+
+@media screen and (max-width: 540px) {
+} /*max-width:540px*/
+
+@media screen and (max-width: 480px) {
+} /*max-width:480px*/
+
+@media screen and (max-width: 440px) {
+} /*max-width:400px*/
+
+@media screen and (max-width: 399px) {
+} /*max-width:399px*/
+
+@media screen and (max-width: 350px) {
+} /*max-width:350px*/
+
+@media screen and (max-width: 320px) {
+} /*max-width:320px*/
