@@ -13,26 +13,43 @@ $(document).ready(function () {
 
   // products slider
   $(".slider-center").slick({
+    infinite: true,
     centerMode: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
+    autoplay: true,
+    slidesToShow: 4,
+    slidesToScroll: 3,
+    autoplaySpeed: 1500,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1440,
         settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: "40px",
           slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          centerMode: false,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: "40px",
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -54,5 +71,13 @@ $(document).ready(function () {
       200
     );
     return false;
+  });
+
+  // counter
+  $(window).on("load", function () {
+    $(".counter").counterUp({
+      dalay: 10,
+      time: 3000,
+    });
   });
 });
