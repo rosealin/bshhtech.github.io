@@ -7,6 +7,17 @@
   .header-menu .menu ul > li a {
     padding: 25px 10px;
   }
+  .banner-text h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    animation: 0.9s fadeInLeft both;
+  }
+  .banner-text p {
+    color: #fff;
+    padding-top: 100px;
+    font-size: 16px;
+  }
 } /*max-width:1199px*/
 
 @media screen and (max-width: 1024px) {
@@ -16,6 +27,20 @@
 } /*max-width:1008px*/
 
 @media screen and (max-width: 992px) {
+  .top-banner-area {
+    margin-top: 62px;
+  }
+  .banner-text h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+    animation: 0.9s fadeInLeft both;
+  }
+  .banner-text p {
+    color: #fff;
+    padding-top: 100px;
+    font-size: 14px;
+  }
   .header-menu .menu ul > li {
     text-align: center;
   }
@@ -53,6 +78,11 @@
 } /*max-width:991px*/
 
 @media screen and (max-width: 768px) {
+  .top-banner-area .owl-dots {
+    position: absolute;
+    left: 42%;
+    bottom: 0px;
+  }
 } /*max-width:768px*/
 
 @media screen and (max-width: 767px) {
@@ -62,12 +92,20 @@
 } /*max-width:660px*/
 
 @media screen and (max-width: 640px) {
+  .top-banner-area .owl-dots {
+    position: absolute;
+    left: 40%;
+    bottom: 0px;
+  }
 } /*max-width:640px*/
 
 @media screen and (max-width: 580px) {
 } /*max-width:580px*/
 
 @media screen and (max-width: 540px) {
+  .products-list-menu .nav-link{
+    padding: 30px 34px;
+  }
 } /*max-width:540px*/
 
 @media screen and (max-width: 480px) {

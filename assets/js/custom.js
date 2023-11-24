@@ -11,6 +11,47 @@ $(document).ready(function () {
   //   }
   // });
 
+  $(".slick-banner").owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 0,
+    nav: false,
+    dots: true,
+    autoplay: true,
+    animateOut: "fadeOut",
+    smartSpeed: 1000,
+    autoplayHoverPause: true,
+  });
+  $(".company-list").owlCarousel({
+    loop: true,
+    margin: 24,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    smartSpeed: 1000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      414: {
+        items: 2,
+      },
+      576: {
+        items: 3,
+      },
+      768: {
+        items: 4,
+      },
+      992: {
+        items: 5,
+      },
+      1200: {
+        items: 6,
+      },
+    },
+  });
+
   // products slider
   $(".slider-center").slick({
     infinite: true,
